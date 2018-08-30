@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <title>ScreenSharing</title>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <Script src="../js/webrtc-adapter/release/adapter.js"></Script>
+  <script src="../js/websockets/kurento-utils.js"></script>
+  <script src="../js/websockets/api.js"></script>
+  <script src="../js/websockets/index.js"></script>
+
+  <style>
+    body {
+      background: white;
+      display: -webkit-flex;
+      -webkit-justify-content: center;
+      -webkit-align-items: center;
+      -webkit-flex-direction: column;
+    }
+
+    video {
+      width: 640px;
+      height: 480px;
+      border: 1px solid #e2e2e2;
+    }
+  </style>
+
+</head>
+
+<body>
+  <video id="video" playsinline autoplay></video>
+  <p>
+    <button id="start">Share Screen</button>
+  </p>
+  <script src="app.js"></script>
+</body>
+
+</html>
