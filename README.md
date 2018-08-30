@@ -11,6 +11,6 @@ webrtc屏幕共享简单demo
 `npm install -g servedir`
 
 ##启动servedir
-`servedir . `
+`servedir .`
 
-现在通过http://localhost:8000打开index页面，点击“Get the screen”按钮，并且选择你想要分享屏幕，窗口还是标签页。然后你就可以捕捉你的屏幕信息了！
+现在通过http://localhost:8000 打开index页面，点击 “Get the screen”按钮，并且选择你想要分享屏幕，窗口还是标签页。然后你就可以捕捉你的屏幕信息了！
