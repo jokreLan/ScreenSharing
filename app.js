@@ -66,5 +66,11 @@ function startScreenStreamFrom(streamId) {
     then(handleSuccess).catch(handleError);
 }
 
+// 关闭屏幕共享
+// const stopScreen = document.getElementById('delpopup');
+
+// stopScreen.addEventListener('click', event => {
+//   stream.getTracks().forEach(track => track.stop());
+// });
 
 
