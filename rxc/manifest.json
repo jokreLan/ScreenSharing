@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Screensharing Extension for my app",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwEevP0XvqhS33wDBtBmXhHcdX9oMCnxh4lG/+5ALaT89p+hYMQdqqg9qO1m0RHR3Owc+ALxvbTdQZJYtNAr/08/J5l6Pc0epdTvNT6naAvd5pZuZEW03Xaq5u0cnjzTK1fO21vEaDPPVs0+IL8iZC5D/iojId/PP3ZFFWq/qS1QjAhZO/gncSuWX+cc3eDqKLNF0CPPucjZqyajLrX9p3VxUFKp7Xjl9gishpH0rDTgn093fl6RzdlHXk6FS5yLezcL57RNXd/AEk8Ze68Y8Ked+dvGtdM33CMSlDX+K5tbhwweOLrkpiey1iBi9HfgxBVgsM6Gn7BpdmG/6JCB/UQIDAQAB",
+   "manifest_version": 2,
+   "name": "Screensharing Extension",
+   "permissions": [ "desktopCapture" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}
